@@ -60,6 +60,7 @@ nav button:active {
   font-size: 11px;
   transition: 200ms;
   border-radius: 7px;
+  position: relative;
 }
 
 .card:hover {
@@ -102,4 +103,14 @@ nav button:active {
   gap: 40px;
   justify-content: center;
   margin-top: 15px;
+}
+
+.badge {
+  position: absolute;
+  font-size: 8px;
+  left: 9px;
+  top: 9px;
+  padding: 2px;
+  background-color: white;
+  border-radius: 2px;
 }

@@ -1,8 +1,17 @@
 import star from "./imgs/star.png"
 
 function Card(props) {
+    //Changing the badge text based on availability
+    let txt;
+    if(props.deal.left === 0){
+        txt = "SOLD OUT";
+    }else {
+        txt = `${props.deal.left} LEFT`;
+    }
+
     return (
         <div className = "card">
+            {txt && <div className = "badge">{txt}</div>}   {/*  Conditional Rendering  */}
             <img src = {props.deal.img} alt = "sidemen" width = "200px" />
             <div className="intro">
                 <b>{props.deal.name}</b>

@@ -11,7 +11,8 @@ let data = [
   "dist": "4,841 kilometers",
   "date": "10 - 15 Oct",
   "price": "$12,991",
-  "time": "night"},
+  "time": "night",
+  "left": 0},
 
   { "name": "Abisnamel, Indonesia",
   "img": img2,
@@ -19,7 +20,8 @@ let data = [
   "dist": "4,951 kilometers",
   "date": "18 - 23 Apr",
   "price": "$27,500",
-  "time": "night"},
+  "time": "night",
+  "left": 9},
 
   { "name": "El Nido, Philippines",
   "img": img3,
@@ -27,7 +29,8 @@ let data = [
   "dist": "4,200 kilometers",
   "date": "1 - 8 Oct",
   "price": "$11,500",
-  "time": "night"},
+  "time": "night",
+  "left": 8},
 
   { "name": "Chittorgarh, India",
   "img": img4,
@@ -35,7 +38,8 @@ let data = [
   "dist": "1, 395 kilometers",
   "date": "7 - 12 Oct",
   "price": "$3,500",
-  "time": "night"},
+  "time": "night",
+  "left": 0},
 
   { "name": "Tampaksiring, Indonesia",
   "img": img5,
@@ -43,7 +47,8 @@ let data = [
   "dist": "4,800 kilometers",
   "date": "3 - 8 Dec",
   "price": "$24,500",
-  "time": "night"},
+  "time": "night",
+  "left": 4},
 
   { "name": "Sidemen, Indonesia",
   "img": img1,
@@ -51,7 +56,8 @@ let data = [
   "dist": "4,841 kilometers",
   "date": "10 - 15 Oct",
   "price": "$12,991",
-  "time": "night"}
+  "time": "night",
+  "left": 0}
 ];
 
 export default data;
