@@ -5,7 +5,7 @@ function Card(props) {
     let txt;
     if(props.deal.left === 0){
         txt = "SOLD OUT";
-    }else {
+    }else if(props.deal.left <= 3){
         txt = `${props.deal.left} LEFT`;
     }
 

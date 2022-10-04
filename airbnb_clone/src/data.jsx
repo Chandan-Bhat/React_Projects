@@ -12,7 +12,7 @@ let data = [
   "date": "10 - 15 Oct",
   "price": "$12,991",
   "time": "night",
-  "left": 0},
+  "left": 7},
 
   { "name": "Abisnamel, Indonesia",
   "img": img2,
@@ -21,7 +21,7 @@ let data = [
   "date": "18 - 23 Apr",
   "price": "$27,500",
   "time": "night",
-  "left": 9},
+  "left": 2},
 
   { "name": "El Nido, Philippines",
   "img": img3,
@@ -30,7 +30,7 @@ let data = [
   "date": "1 - 8 Oct",
   "price": "$11,500",
   "time": "night",
-  "left": 8},
+  "left": 5},
 
   { "name": "Chittorgarh, India",
   "img": img4,
@@ -48,7 +48,7 @@ let data = [
   "date": "3 - 8 Dec",
   "price": "$24,500",
   "time": "night",
-  "left": 4},
+  "left": 3},
 
   { "name": "Sidemen, Indonesia",
   "img": img1,
