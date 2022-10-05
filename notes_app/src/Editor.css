@@ -1,0 +1,72 @@
+.editor {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    align-items: center;
+    padding: 18px 25px;
+    background-color: rgba(34, 34, 34, 0.141);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.slides button {
+    font-size: 16px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2.3px solid #222;
+    border-radius: 20px;
+    padding: 5px 18px;
+    transition: 300ms;
+    font-weight: 550;
+}
+
+.slides button:hover {
+    transform: scale(1.06);
+}
+
+.taskbar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.text, .tags, .html-list {
+    display: flex;
+    gap: 12px;
+    background-color: rgba(34, 34, 34, 0.141);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.taskbar img {
+    width: 24px;
+    transition: 200ms;
+}
+
+.taskbar img:hover {
+    transform: scale(1.07);
+}
+
+.write-pad {
+    width: 96%;
+    height: 70vh;
+    padding: 15px;
+    font-size: 16px;
+}

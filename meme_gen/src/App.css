@@ -107,7 +107,7 @@
 .top, .btm {
   color: white;
   position: absolute;
-  max-width: inherit; 
+  /* max-width: inherit; */ 
   text-align: center;
   text-shadow:
         1px 1px 0 #000,
