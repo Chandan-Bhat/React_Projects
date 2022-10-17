@@ -1,3 +1,7 @@
+# NewsLetter App
+
+This app lets you view global, news allowing you to select country and category information to get the news you wish to see, requires API key from newsdata.io
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
