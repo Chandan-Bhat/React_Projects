@@ -23,7 +23,7 @@ const Letter = () => {
             baseURL:"https://newsdata.io/api/1",
             method: "get",
             params: {
-              apikey: "smtg smtg", //get an API key from newsData.io
+              apikey: "pub_1223593799f7b07fd41342fc88311a00abbbc", //get an API key from newsData.io
               country: country,
               category: cata
             }
